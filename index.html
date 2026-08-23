@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#0b1411">
   <title>鐘響以前｜三日營隊</title>
-<link rel="stylesheet" href="style.css?v=18">
+<link rel="stylesheet" href="style.css?v=19">
   <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog&&window.posthog.__loaded)||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}p||((p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",p.onerror=function(){p=null},(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r));var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing reset".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-    posthog.init('phc_tjGdnedEr57YcUMSL3d9eosQRcQ99KgPeUoAZLtuXAgM',{api_host:'https://us.i.posthog.com',defaults:'2026-05-30',person_profiles:'identified_only',autocapture:false,disable_session_recording:true,opt_out_capturing_by_default:true,capture_pageview:true,capture_pageleave:true});
+    posthog.init('phc_oCZsAtmHbBsv5vsLhid9qHRbRba5q4QgfGXXqTSE99K4',{api_host:'https://us.i.posthog.com',defaults:'2026-05-30',person_profiles:'identified_only',autocapture:false,disable_session_recording:true,opt_out_capturing_by_default:true,capture_pageview:true,capture_pageleave:true});
   </script>
 </head>
 <body>
@@ -69,25 +69,25 @@
   <section id="dialogue" class="dialogue hidden"><b id="speaker"></b><p id="line"></p><div id="choices"></div><button id="prevLine" class="hidden">上一句</button><button id="next">繼續</button></section>
 
   <section id="phone" class="phone-wrap hidden">
-    <div class="phone"><div class="phone-top">07:32　▮▮▮　63%</div><header><button id="phoneBack">‹</button><b id="phoneTitle">LINE</b></header><div id="messages"></div></div>
+    <div class="phone"><div class="phone-top">07:32　▮▮▮　63%</div><header><button id="phoneBack">‹ 返回</button><b id="phoneTitle">LINE</b></header><div id="messages"></div></div>
   </section>
 
-  <section id="notebook" class="notebook hidden"><button id="closeNotes">×</button><p class="eyebrow">觀察筆記</p><h2 id="noteDay">第一天</h2><div id="noteList"></div></section>
+  <section id="notebook" class="notebook hidden"><button id="closeNotes" class="layer-back">‹ 返回場景</button><p class="eyebrow">觀察筆記</p><h2 id="noteDay">第一天</h2><div id="noteList"></div></section>
 
-  <section id="ending" class="page ending hidden"><p class="eyebrow">第一天結束</p><h2>第一印象，<br>只對了一半。</h2><p>賴安確實說了謊，但他隱藏的不是闖入後棟的理由。理解原因，也不代表忽略安全問題。</p><p class="endquote">那串不屬於賴安的腳印，究竟是誰留下的？</p><button id="nextDayTwo">前往第二天</button><button id="replay" class="ending-secondary">回到三日營隊紀錄</button></section>
-  <section id="endingTwo" class="page ending hidden"><p class="eyebrow">第二天結束</p><h2>照片裡的<br>第五個人。</h2><p>腳印、種子和芮琪多畫出來的人，最後都指向阿龍。他不是來破壞後棟，只是不知道自己還能不能靠近以前的朋友。</p><p class="endquote">方案已經排好。明天，它真的做得到嗎？</p><button id="nextDayThree">前往第三天</button><button id="finishDayTwo" class="ending-secondary">回到三日營隊紀錄</button></section>
+  <section id="ending" class="page ending hidden"><button class="layer-back" data-go="chapters">‹ 返回三日紀錄</button><p class="eyebrow">第一天結束</p><h2>第一印象，<br>只對了一半。</h2><p>賴安確實說了謊，但他隱藏的不是闖入後棟的理由。理解原因，也不代表忽略安全問題。</p><p class="endquote">那串不屬於賴安的腳印，究竟是誰留下的？</p><button id="nextDayTwo">前往第二天</button><button id="replay" class="ending-secondary">回到三日營隊紀錄</button></section>
+  <section id="endingTwo" class="page ending hidden"><button class="layer-back" data-go="chapters">‹ 返回三日紀錄</button><p class="eyebrow">第二天結束</p><h2>照片裡的<br>第五個人。</h2><p>腳印、種子和芮琪多畫出來的人，最後都指向阿龍。他不是來破壞後棟，只是不知道自己還能不能靠近以前的朋友。</p><p class="endquote">方案已經排好。明天，它真的做得到嗎？</p><button id="nextDayThree">前往第三天</button><button id="finishDayTwo" class="ending-secondary">回到三日營隊紀錄</button></section>
 
   <section id="planner" class="planner hidden">
     <button id="plannerBack" class="layer-back">‹ 返回三日紀錄</button>
     <p class="eyebrow">第二天・16:20</p><h2>安排阿龍的最後一天</h2>
-    <div class="planner-intro"><b>方案拼圖怎麼玩？</b><p>拼湊阿龍到校參與營隊的方案：阿龍目前遇到四個問題——聯絡與文件、入營方式、活動安排、餐點材料。每選一張方案卡，都會扣除相應的規劃時間、備用金或隊輔空檔。</p></div>
+    <div class="planner-intro"><b>方案拼圖操作指南</b><p>拼湊阿龍到校參與營隊的方案：阿龍目前遇到四個問題——聯絡與文件、入營方式、活動安排、餐點材料。每選一張方案卡，都會扣除相應的規劃時間、備用金或隊輔空檔。</p></div>
     <div id="resourceBoard" class="resource-board"></div>
     <div class="fixed-limits"><b>阿龍已經告訴你的條件</b><span>可參與 11:00–13:00（120 分鐘）</span><span>13:00 由媽媽接走</span><span>目前不在正式活動名單</span></div>
     <div id="planSlots" class="plan-slots"></div>
     <div id="plannerQuestion"></div><div id="plannerOptions"></div><div id="decisionFeedback" class="hidden"></div><p id="plannerProgress"></p>
   </section>
 
-  <section id="result" class="result hidden"><div id="resultContent"></div></section>
+  <section id="result" class="result hidden"><button id="resultBack" class="layer-back">‹ 返回三日紀錄</button><div id="resultContent"></div></section>
   <section id="postSurvey" class="survey-page hidden">
     <button class="survey-back" id="postSurveyBack">‹ 返回分析結果</button>
     <div class="survey-heading"><p class="eyebrow">完成故事後</p><h2>最後完成後測</h2><p>再花約 2 分鐘完成後測，即可完成抽獎登記，獲得 <b>NT$3,000 大獎</b>抽獎資格！</p></div>
@@ -95,6 +95,7 @@
     <div class="survey-actions"><a id="postSurveyOpen" href="https://forms.gle/6Fm4YXsgkF36dqQ29" target="_blank" rel="noopener">問卷顯示不完整？在新分頁填寫 ↗</a><button id="postSurveyDone">我已送出後測，查看感謝頁</button><small>請先在上方送出問卷，再按下此按鈕。</small></div>
   </section>
   <section id="thanks" class="thanks hidden">
+    <button id="thanksBack" class="layer-back">‹ 返回後測</button>
     <div class="thanks-stars" aria-hidden="true">✦　·　✧　·　✦</div>
     <p class="eyebrow">謝謝你完成這趟營隊</p>
     <h2>改變，不一定要從<br>很遠的地方開始。</h2>
@@ -107,6 +108,6 @@
   <div id="toast" class="toast hidden"></div>
   <aside id="analyticsConsent" class="analytics-consent hidden" aria-live="polite"><b>協助我們改善遊戲</b><p>是否同意匿名記錄關卡進度與選項？不會傳送你輸入的名字，也不會錄製畫面。</p><div><button id="analyticsAccept">同意匿名統計</button><button id="analyticsDecline">暫時不要</button></div></aside>
 </main>
-<script src="game.js?v=18"></script>
+<script src="game.js?v=19"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@ button:disabled{cursor:default}
 #cameraFlash{position:absolute;inset:0;background:#fff;opacity:0;pointer-events:none;z-index:999}
 #cameraFlash.snap{animation:cameraSnap .42s ease-out}
 @keyframes cameraSnap{0%{opacity:0}18%{opacity:.94}45%{opacity:.18}100%{opacity:0}}
-.photo{position:absolute;inset:0;background:url("assets/hexing-campus.webp") center/cover no-repeat;transition:.35s}
+.photo{position:absolute;inset:0;background:url("hexing-campus.webp") center/cover no-repeat;transition:.35s}
 .shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(0,0,0,.2),transparent 42%,rgba(0,0,0,.46))}
 .hidden{display:none!important}
 .page{position:absolute;z-index:10;inset:0}
@@ -91,7 +91,7 @@ header#hud{position:absolute;z-index:20;left:0;right:0;top:0;padding:calc(12px +
 .bag-button{position:absolute;z-index:22;right:15px;bottom:18px;border:1px solid var(--line);border-radius:99px;background:rgba(3,9,7,.86);color:white;padding:10px 14px}
 .scene-next{position:absolute;z-index:23;left:auto;right:15px;bottom:18px;transform:none;max-width:175px;border:1px solid var(--line);border-radius:99px;background:rgba(3,9,7,.86);color:#fff;padding:10px 14px;font-size:12px;line-height:1.35;font-weight:700;box-shadow:0 8px 22px rgba(0,0,0,.3)}
 .scene-next.primary-center{left:50%;right:auto;bottom:24px;transform:translateX(-50%);width:calc(100% - 44px);max-width:360px;padding:15px 18px;border-color:#f0c66f;background:#e7b95e;color:#18231e;font-size:14px;box-shadow:0 12px 30px rgba(0,0,0,.42)}
-.bag{position:absolute;z-index:45;inset:0;background:url("assets/open-backpack-map.webp") center/cover no-repeat}
+.bag{position:absolute;z-index:45;inset:0;background:url("open-backpack-map.webp") center/cover no-repeat}
 .layer-back{position:absolute;z-index:3;left:14px;top:calc(14px + env(safe-area-inset-top));border:1px solid var(--line);background:rgba(3,9,7,.82);color:white;padding:9px 13px}
 .bag-phone{position:absolute;z-index:3;left:48%;top:46%;width:27%;height:27%;border:0;background:transparent}
 .bag-phone:active{background:rgba(229,185,102,.15)}
@@ -142,7 +142,7 @@ header#hud{position:absolute;z-index:20;left:0;right:0;top:0;padding:calc(12px +
 .question-context{border:0;border-radius:11px;background:linear-gradient(135deg,rgba(98,199,197,.14),rgba(255,255,255,.05))}
 .planner-choice{position:relative;overflow:hidden;border:0;border-radius:15px;background:linear-gradient(145deg,rgba(255,255,255,.13),rgba(255,255,255,.055));box-shadow:0 9px 24px rgba(0,0,0,.2);padding:16px}.planner-choice:before{content:"選";position:absolute;right:-8px;top:-9px;width:45px;height:45px;padding:16px 0 0 13px;border-radius:50%;background:rgba(255,200,87,.16);color:#ffd87d;font-size:9px}.planner-choice>b{display:block;padding-right:25px;color:#fff6d8;font-size:15px}.planner-choice:not(:disabled):hover{border-color:#ffc857;transform:translateY(-1px)}
 .planner-choice:before{display:none}.planner-choice>b{padding-right:0}
-.evidence-inset{position:absolute;z-index:16;right:12px;top:86px;width:105px;height:160px;border:4px solid #f4edda;border-radius:5px;background:url("assets/day2-footprint-camera.webp") center/cover no-repeat;box-shadow:0 10px 28px rgba(0,0,0,.45);transform:rotate(2deg);pointer-events:none}.evidence-inset small{position:absolute;left:50%;bottom:-24px;transform:translateX(-50%);width:max-content;padding:4px 7px;border-radius:99px;background:rgba(3,9,7,.85);color:#fff;font-size:9px}
+.evidence-inset{position:absolute;z-index:16;right:12px;top:86px;width:105px;height:160px;border:4px solid #f4edda;border-radius:5px;background:url("day2-footprint-camera.webp") center/cover no-repeat;box-shadow:0 10px 28px rgba(0,0,0,.45);transform:rotate(2deg);pointer-events:none}.evidence-inset small{position:absolute;left:50%;bottom:-24px;transform:translateX(-50%);width:max-content;padding:4px 7px;border-radius:99px;background:rgba(3,9,7,.85);color:#fff;font-size:9px}
 .plan-limit{border-left:0;border-radius:8px;background:rgba(255,143,112,.12)}.choice-cost i{border-radius:99px;padding:5px 7px;background:rgba(98,199,197,.13)}
 
 /* brighter action-oriented result */
